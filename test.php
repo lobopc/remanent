@@ -37,3 +37,4 @@ foreach ($productsData as $products){
         }
 }
 echo (<br>);
+echo (<br>);
