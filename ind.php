@@ -1,7 +1,7 @@
 <?php
 
 $filePaths = array_filter(glob('Remanent/*.TXT'), 'is_file');
-$productsData = array_map(function ($filePath)) {
+$productsData = array_map(function ($filePath)) 
     $fileContent = file_get_contents($filePath);
     preg_match('#^(\w+),(\d+)$#', $fileContent, $matches);
     list($ean, $quantity) = array_slice($matches, );
